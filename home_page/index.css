@@ -197,3 +197,105 @@ a {
   #navbarstart #menu ul li:hover {
     cursor: pointer;
   }
+
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  
+  .dropdown li {
+    padding: 10px;
+  }
+  #divCheckout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8%;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .fa {
+    color: white;
+    font-size: 20px;
+  }
+  #divCheckout img {
+    width: 23px;
+  }
+  #cartCount {
+    width: 12px;
+    margin-top: 12px;
+    padding-left: 12px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c7202c;
+  }
+  .UserDropDowns_icon_08 {
+    margin-left: 15px;
+  }
+  
+  
+
+/* body */
+#mid {
+    width: 85%;
+    margin: auto;
+    align-items: center;
+  }
+  #mid > img {
+    width: 100%;
+  }
+  #midPart1a {
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+  }
+  #midPart1a > img {
+    width: 100%;
+  }
+  /* <--midPart1---> */
+  #midPart1 > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+  }
+  #midPart1 > h1 + div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    gap: 25px;
+    font-size: 20px;
+  }
+  #card > div > img {
+    width: 100%;
+  }
+  
+  #card > div > img + h2 {
+    margin-top: -30px;
+    color: rgb(0, 121, 210);
+  }
+  #card > div > img + h2 + p {
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+    text-align: center;
+  }
