@@ -299,3 +299,176 @@ a {
     font-weight: bold;
     text-align: center;
   }
+
+    /* ---mid part2--- */
+    #midPart2 > h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 60px;
+      }
+      #midPart2 > h1 + div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        grid-template-columns: repeat(6, 1fr);
+        width: 85%;
+        margin: auto;
+        gap: 25px;
+        font-size: 20px;
+      }
+      #midPart2 > h1 + #card2 > div > p {
+        text-align: center;
+      }
+      #card2 > div > img {
+        width: 100%;
+      }
+      #card2 > div > img + p {
+        font-size: 20px;
+      }
+      /* ----mid part3--- */
+      #midPart3 {
+        width: 85%;
+        margin: auto;
+      }
+      #midPart3 > div > img {
+        margin-top: 70px;
+        width: 100%;
+        height: 70%;
+      }
+      /* <---midPart4---> */
+      #midPart4 > h1 {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      #midPart4 > h1 + #card3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 85%;
+        margin: auto;
+        gap: 20px;
+        font-size: 20px;
+        flex-wrap: wrap;
+      }
+      #midPart4 > h1 + #card3 > div {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      }
+      #midPart4 > h1 + #card3 > div > img {
+        width: 100%;
+      }
+      #card3 > div > h2,
+      p {
+        padding-left: 10px;
+        text-align: center;
+      }
+      #card3 > div > h2 + p {
+        margin-top: -3px;
+        font-size: 20px;
+        word-wrap: normal;
+      }
+      /*<---featured brands part--> */
+      
+      #fBrands > h1 {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      
+      #fBrands > h1 + #card4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 85%;
+        margin: auto;
+        gap: 20px;
+        font-size: 20px;
+      }
+      #fBrands > h1 + #card4 > div {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      }
+      
+      #fBrands > h1 + #card4 > div > img {
+        width: 100%;
+      }
+      #card4 > div > h5,
+      p {
+        padding-left: 10px;
+        text-align: center;
+      }
+      
+      #card4 > div > h5 + p {
+        margin-top: -15px;
+        font-size: 18px;
+        word-wrap: normal;
+      }
+      
+      /* <----saving-----> */
+      #saving {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        margin-top: 80px;
+      }
+      
+      #saving > img {
+        width: 100%;
+      }
+      /* <----Style----> */
+      #Style > h1 {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      
+      #Style > h1 + #card5 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      
+        width: 85%;
+        margin: auto;
+        gap: 20px;
+        font-size: 20px;
+      }
+      #Style > h1 + #card5 > div {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      }
+      
+      #Style > h1 + #card5 > div > img {
+        width: 100%;
+      }
+      #card5 > div > h2,
+      p {
+        padding-left: 10px;
+        text-align: center;
+      }
+      
+      #card5 > div > h2 + p {
+        margin-top: -15px;
+        font-size: 18px;
+        word-wrap: normal;
+      }
+      
+      
+      #search {
+        width: 85%;
+        margin: auto;
+      }
+      #search > h1 {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+      }
+      #search > h1 + #search1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      #search1 p {
+      
+        margin: 1.5%;
+        padding: 4% 2%;
+        font-size: 1.2rem;
+        font-weight: 700;
+        background-color: #f5f6f7;
+        color: rgb(83, 82, 82);
+      }
+      
