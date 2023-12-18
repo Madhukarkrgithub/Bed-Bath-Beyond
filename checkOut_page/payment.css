@@ -417,9 +417,13 @@ margin-left: 10px;
 
   *{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 #footer-up{
+    margin-top: 20px;
     display: flex;
     background-color: #545658;
     justify-content: space-between;
