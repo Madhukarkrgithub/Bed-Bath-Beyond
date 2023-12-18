@@ -206,3 +206,13 @@ function switchMainImage(imageUrl, altText) {
   mainImg.setAttribute("src", imageUrl);
   mainImg.classList.add("main-img");
 }
+
+
+
+document.getElementById('accountIcon').addEventListener('click', function() {
+  window.location.href = '../login_page/login.html'; 
+});
+
+document.getElementById('cartIcon').addEventListener('click', function() {
+  window.location.href = '../cartPage/cart.html'; 
+});
