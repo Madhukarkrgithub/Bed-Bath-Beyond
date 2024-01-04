@@ -156,8 +156,10 @@ margin:0.8rem auto auto auto;
     border-radius: 4px;
     position: relative; /* Add relative positioning */
     background: transparent; /* Make the input background transparent */
-
+    
   }
+
+  
 
   #formsubmit>div:nth-child(2){
   
@@ -320,7 +322,7 @@ top:2rem;
   .checklabel{
     position: relative;
     bottom: 0;
-margin-left: 10px;
+    margin-right: 20px;
   }
   .form-group2{
     display: flex;
