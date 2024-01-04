@@ -157,11 +157,3 @@ cartRefresh();
 updatePrice();
 updateCartCount();
 
-
-document.getElementById('accountIcon').addEventListener('click', function() {
-  window.location.href = '../login_page/login.html'; 
-});
-
-document.getElementById('cartIcon').addEventListener('click', function() {
-  window.location.href = '../cartPage/cart.html'; 
-});
